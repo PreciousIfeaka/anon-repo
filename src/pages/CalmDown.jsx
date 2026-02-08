@@ -33,12 +33,12 @@ const CalmDown = () => {
             <FaHeart />
           </motion.span>
         </div>
-        <h1 className="romantic-font" style={{ fontSize: '3rem' }}>Haha!</h1>
+        <h1 className="romantic-font" style={{ fontSize: '3.5rem' }}>Haha!</h1>
         <p>I know you're longing to know the question, but do the calms.</p>
         <div style={{ fontSize: '1.2rem', marginTop: '1rem' }}>
           😂 ❤️
         </div>
-        <button style={{ marginTop: '2rem' }} onClick={() => navigate('/proposal')}>
+        <button style={{ marginTop: '2rem' }} onClick={() => navigate('/pre-proposal')}>
           Okay...
         </button>
       </div>

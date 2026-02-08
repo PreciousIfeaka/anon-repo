@@ -9,6 +9,7 @@ import SuspenseStart from './pages/SuspenseStart';
 import SuspenseFollowUp from './pages/SuspenseFollowUp';
 import FuturePromise from './pages/FuturePromise';
 import CalmDown from './pages/CalmDown';
+import PreProposal from './pages/PreProposal';
 import FloatingHearts from './components/FloatingHearts';
 import BackgroundMusic from './components/BackgroundMusic';
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="/memories" element={<Memories />} />
           <Route path="/future-promise" element={<FuturePromise />} />
           <Route path="/calm-down" element={<CalmDown />} />
+          <Route path="/pre-proposal" element={<PreProposal />} />
           <Route path="/proposal" element={<Proposal />} />
           <Route path="/success" element={<Success />} />
         </Routes>

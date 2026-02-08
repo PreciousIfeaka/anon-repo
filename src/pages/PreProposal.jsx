@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import { FaQuestion } from 'react-icons/fa';
+import { FaHeartbeat } from 'react-icons/fa';
 
-const SuspenseStart = () => {
+const PreProposal = () => {
   const navigate = useNavigate();
 
   return (
@@ -20,21 +20,22 @@ const SuspenseStart = () => {
     >
       <div className="glass-card">
         <motion.div
-          animate={{ scale: [1, 1.2, 1], rotate: [0, 10, -10, 0] }}
-          transition={{ repeat: Infinity, duration: 1.5 }}
+          animate={{ scale: [1, 1.3, 1] }}
+          transition={{ repeat: Infinity, duration: 1.2 }}
           style={{ fontSize: '4rem', color: '#ff4d6d', marginBottom: '1rem' }}
         >
-          <FaQuestion />
+          <FaHeartbeat />
         </motion.div>
-        <h1 className="romantic-font" style={{ fontSize: '3.5rem' }}>Shhh...</h1>
-        <p>I am sure you don't expect what is coming...</p>
-        <p>Can you take a guess?</p>
-        <button style={{ marginTop: '2rem' }} onClick={() => navigate('/intro')}>
-          Take a Guess
+        <h1 className="romantic-font" style={{ fontSize: '4rem' }}>And here we go...</h1>
+        <p style={{ fontSize: '1.2rem', marginTop: '1rem' }}>
+          Take a deep breath. 🌹
+        </p>
+        <button style={{ marginTop: '2rem' }} onClick={() => navigate('/proposal')}>
+          I'm Ready
         </button>
       </div>
     </motion.div>
   );
 };
 
-export default SuspenseStart;
+export default PreProposal;
