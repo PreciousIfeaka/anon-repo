@@ -65,7 +65,7 @@ const Proposal = () => {
           <FaHeart />
         </motion.div>
 
-        <h1 className="romantic-font" style={{ fontSize: '3.5rem', marginBottom: '2rem' }}>Will you be my Valentine?</h1>
+        <h1 className="romantic-font" style={{ fontSize: '4rem', marginBottom: '2rem' }}>Will you be my Valentine?</h1>
 
         <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem', flexWrap: 'wrap' }}>
           <motion.button

@@ -93,7 +93,7 @@ const Memories = () => {
                 marginBottom: '1rem'
               }}
             />
-            <p className="romantic-font" style={{ fontSize: '1.2rem', fontWeight: 'bold' }}>{memories[index].message}</p>
+            <p className="romantic-font" style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>{memories[index].message}</p>
           </motion.div>
         </AnimatePresence>
       </div>

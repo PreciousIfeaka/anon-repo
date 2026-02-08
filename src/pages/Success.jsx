@@ -44,8 +44,8 @@ const Success = () => {
           <FaHeart />
         </motion.div>
 
-        <h1 className="romantic-font" style={{ fontSize: '3.5rem', marginBottom: '1rem', color: '#c9184a' }}>YAAAAY!!!</h1>
-        <p className="romantic-font" style={{ fontSize: '1.8rem', marginBottom: '2rem' }}>
+        <h1 className="romantic-font" style={{ fontSize: '4rem', marginBottom: '1rem', color: '#c9184a' }}>YAAAAY!!!</h1>
+        <p className="romantic-font" style={{ fontSize: '2rem', marginBottom: '2rem' }}>
           I am so happy you said yes to me. I do not and will not take it for granted. I know I do not have everything it takes for the day to be memorable for you but I will try to make the simple things memorable. I really love you my Bebita. ❤️
         </p>
         <p style={{ fontSize: '1.2rem', color: '#666' }}>

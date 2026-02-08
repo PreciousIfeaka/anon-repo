@@ -26,7 +26,7 @@ const FuturePromise = () => {
         >
           <FaInfinity />
         </motion.div>
-        <h1 className="romantic-font" style={{ fontSize: '3rem' }}>Our Future</h1>
+        <h1 className="romantic-font" style={{ fontSize: '3.5rem' }}>Our Future</h1>
         <p>We will have more to experience in our lifetime.</p>
         <button style={{ marginTop: '2rem' }} onClick={() => navigate('/calm-down')}>
           Next Question

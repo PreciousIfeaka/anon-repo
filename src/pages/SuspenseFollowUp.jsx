@@ -26,7 +26,7 @@ const SuspenseFollowUp = () => {
         >
           <FaSmileWink />
         </motion.div>
-        <h1 className="romantic-font" style={{ fontSize: '3rem' }}>I knew it!</h1>
+        <h1 className="romantic-font" style={{ fontSize: '3.5rem' }}>I knew it!</h1>
         <p>You're thinking what I am thinking, right?</p>
         <p>So...</p>
         <button style={{ marginTop: '2rem' }} onClick={() => navigate('/memories')}>
